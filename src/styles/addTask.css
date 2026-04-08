@@ -1,0 +1,54 @@
+.addtask-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background:#f4f6f9;
+}
+
+.addtask-card{
+  background:white;
+  padding:30px;
+  width:400px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.addtask-card h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.addtask-card form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.addtask-card input,
+.addtask-card textarea,
+.addtask-card select{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  font-size:14px;
+}
+
+.addtask-card textarea{
+  resize:none;
+  height:80px;
+}
+
+.addtask-card button{
+  padding:12px;
+  background:#4CAF50;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.addtask-card button:hover{
+  background:#43a047;
+}
